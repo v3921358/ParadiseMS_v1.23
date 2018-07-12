@@ -1,0 +1,53 @@
+MSEA v1.21.1 & v1.23.1
+
+31/10/2012
++Added MTSCSContants. [Any MTS/CS related will be added inside]
++Added disable/enable MTS and Cash Shop.
++Added a check on MTS before server start to load data that related MTS.
+
+27/10/2012
++Fixed an error 38 on SendCSFail packet.
+
+26/10/2012
++Updated MSEA v1.23.1
++Fixed an error 38 on inventory packet.
++Fixed boss for not showing Monster Status such as mist, etc.
++Fixed boss for not damaging player and not using skills.
++Added a log recvops that are being used will be show. [Credits by AristoCat]
+
+18/10/2012
++Fixed Spirit Link skill for Bowmaster and Crossbow Master.
++Fixed Feline Berserk.
+
+14/10/2012
++Fixed Body Boost skill.
+
+10/10/2012
++[MSEA v1.22.1]Fixed addCharacterInfo packet that cause disconnect after warpCS.
++[MSEA v1.22.1]Updated RANGED_ATTACK, MAGIC_ATTACK, ENERGY_ATTACK & SKILL_EFFECT sendops.
++[MSEA v1.22.1]Implemented MapleFriendship.
+
+08/10/2012
++[MSEA v1.22.1]Updated CLOSE_RANGE_ATTACK sendops. 
++[MSEA v1.22.1]Updated most of the sendops.
+
+03/10/2012
++Fixed Party Quest rates screwed after created party/events.
++Fixed Spirit Surge skill. 
++Removed some of the Mercedes primary skills that don't exist in official server.
+
+02/10/2012
++Fixed Blue Aura.
++Fixed Battle Mage Stance skill.
+
+29/09/2012
++Updated MSEA v1.22.1
++Added temporary auto job system for Aran & Dual Blade.
++Added explorer job NPC.
++Added a level check on Demon Slayer for gaining Demon Aegis. [Prevent Disconnecting] 
++Added Party Quest rates that will be / 5 according to the ChannelServer rates.
++Fixed dual blade skills that shown Mastery level 0.
++Fixed some of the skills that were not available to add.
++Fixed missing primary skills from the Legend jobs.
++[MSEA v1.22.1]Updated addCharacterInfo.
+
